@@ -1,0 +1,13 @@
+.App{
+
+}
+
+.App__Container{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.App__Title{
+  font-size: 36px;
+  font-weight: bold;
+}

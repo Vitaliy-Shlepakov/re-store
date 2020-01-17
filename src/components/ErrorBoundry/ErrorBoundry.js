@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Spinner from "../Spinner/Spinner";
+import ErrorIndicator from "../ErrorIndicator/ErrorIndicator";
 
 class ErrorBoundry extends Component {
 
@@ -15,7 +15,7 @@ class ErrorBoundry extends Component {
     const {hasError} = this.state;
 
     if (hasError){
-      return <Spinner/>;
+      return <ErrorIndicator/>;
     }
 
     return this.props.children
